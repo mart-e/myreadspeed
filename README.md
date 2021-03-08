@@ -1,2 +1,3 @@
-# myreadspeed
-Previously this was a public website. Now it's only a repo. In future I hope to bring this back as a html5 IPFS site.
+This is a fork of myreadspeed.com because the site is no longer available.
+
+This repo automatically publish to GitHub Pages and available at [https://wallabag.github.io/myreadspeed/](https://wallabag.github.io/myreadspeed/).
