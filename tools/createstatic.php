@@ -44,7 +44,7 @@ class builder{
       }
     }
   }
-  
+
   //build pages
   private function buildPages($dir){
     if($handle = opendir($dir)){
@@ -88,9 +88,9 @@ class page{
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>'.$this->title.'</title>
-    <link rel="stylesheet" type="text/css" href="/c.css" />
-    <script type="text/javascript" src="/j.js"></script>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/myreadspeed/c.css" />
+    <script type="text/javascript" src="/myreadspeed/j.js"></script>
+    <link rel="shortcut icon" href="/myreadspeed/favicon.ico" />
 </head>
 <body>
     <div id="container">
@@ -98,7 +98,7 @@ class page{
         <div id="header">
             <div id="header-content">
                 <div id="header-content-left">
-                    <a href="/"><img src="/images/header.gif" width="525" border="0" alt="logo-myreadspeed.com" /></a>
+                    <a href="/myreadspeed/"><img src="/myreadspeed/images/header.gif" width="525" border="0" alt="logo-myreadspeed.com" /></a>
                 </div>
                 <div id="header-content-right">
                     <p class="quote"></p>
@@ -126,9 +126,9 @@ class page{
         </div>
         <div id="footer-right">
             <ul class="tips">
-                <li><a href="/about-us/">About us</a></li>
-                <li><a href="/articles/">Learn to speed read</a></li>
-                <li><a href="/articles/10-tips/">10 tips to improve your reading speed</a></li>
+                <li><a href="/myreadspeed/about-us/">About us</a></li>
+                <li><a href="/myreadspeed/articles/">Learn to speed read</a></li>
+                <li><a href="/myreadspeed/articles/10-tips/">10 tips to improve your reading speed</a></li>
             </ul>
         </div>
         <div class="clear"></div>
